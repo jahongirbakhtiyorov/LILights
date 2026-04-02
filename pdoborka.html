@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LiLight/podborka+.com</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+       <header>
+      <div class="header_inner">
+        <div class="header_inner_left">
+          <a href="./company.html" class="header_inner_left_link">
+            <img
+              src="./images/Лого (1).svg"
+              alt="logo"
+              class="header_inner_left_link_img"
+              width="75"
+              height="58"
+            />
+          </a>
+        </div>
+
+        <div class="header_inner_center">
+          <ul class="header_inner_center_list">
+            <li class="header_inner_list_item">
+              <a href="./index.html" class="header_inner_center_link"
+                >О компании</a
+              >
+            </li>
+            <li class="header_inner_list_item">
+              <a href="./uslugi.html" class="header_inner_center_link"
+                >Услуги</a
+              >
+            </li>
+            <li class="header_inner_list_item">
+              <a href="#" class="header_inner_center_link">Проекты</a>
+            </li>
+            <li class="header_inner_list_item">
+              <a href="./dostavka.html" class="header_inner_center_link">
+                Доставка и оплата</a
+              >
+            </li>
+            <li class="header_inner_list_item">
+              <a href="#" class="header_inner_center_link">Контакты</a>
+            </li>
+              <li class="header_inner_list_item">
+              <a href="./katalog.html" class="header_inner_center_link">Katalog</a>
+            </li>
+             <li class="header_inner_list_item">
+              <a href="./kartochka.html" class="header_inner_center_link">Kartochka</a>
+            </li>
+            <li class="header_inner_list_item">
+              <a href="./pdoborka.html" class="header_inner_center_link1"
+                >Подборка</a
+              >
+              <button class="header__plus">+</button>
+            </li>
+          </ul>
+        </div>
+        <div class="header_inner_right">
+          <button class="header__burger js-burger" aria-label="Открыть меню">
+            ☰
+          </button>
+          <ul class="header_inner_right_list">
+            <li class="header_inner_right_list_item">
+              <a
+                href="mailto:info@i-lights.ru"
+                class="header_inner_right_gmail"
+              >
+                <img src="./images/gmail.png" alt="" /> info@i-lights.ru
+              </a>
+            </li>
+
+            <li class="header_inner_right_list_item">
+              <a href="tel:+74952335557" class="phone">
+                <img src="./images/phnoe.png" alt="" />+7 (495) 233 55 57
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section class="podborka">
+      <div class="container">
+        <div class="podborka__inner">
+          <div class="podborka__top">
+            <span class="podborka__breadcrumb">
+              <span class="podborka__breadcrumb-item">Главная</span>
+              <span class="podborka__breadcrumb-sep"> - </span>
+              <span
+                class="podborka__breadcrumb-item podborka__breadcrumb-item--active"
+                >Подборка</span
+              >
+            </span>
+            <h1 class="podborka__title">Подборка</h1>
+          </div>
+
+          <div class="podborka__top-inner">
+            <p class="podborka__col-label podborka__col-label--tovar">Товар</p>
+            <p class="podborka__col-label podborka__col-label--desc">
+              Описание
+            </p>
+            <p class="podborka__col-label podborka__col-label--qty">
+              Количество
+            </p>
+            <p class="podborka__col-label podborka__col-label--summa">Сумма</p>
+            <p class="podborka__col-label podborka__col-label--code">
+              Код: 54637654
+            </p>
+          </div>
+
+          <ul class="podborka__list">
+            <li class="podborka__item">
+              <div class="podborka__item-img-wrap">
+                <img
+                  src="./images/картинка (7).png"
+                  alt="Трековый светильник EVO L"
+                  class="podborka__item-img img"
+                />
+              </div>
+              <div class="podborka__item-info">
+                <h4 class="podborka__item-title">Трековый светильник EVO L</h4>
+                <div class="podborka__item-specs">
+                  <span class="podborka__item-spec">50Вт</span>
+                  <span class="podborka__item-spec">85</span>
+                  <span class="podborka__item-spec">Серый</span>
+                  <span class="podborka__item-spec">3000</span>
+                  <span class="podborka__item-spec">CRI/Ra 80+</span>
+                  <span class="podborka__item-spec">1672 LED</span>
+                </div>
+              </div>
+              <div class="podborka__item-qty">
+                <div class="podborka__counter">
+                  <button class="podborka__counter-btn js-minus">-</button>
+                  <p class="podborka__counter-val js-counter-val">1</p>
+                  <button class="podborka__counter-btn js-plus">+</button>
+                </div>
+                <span class="podborka__item-stock">Осталось 2 шт</span>
+              </div>
+              <p class="podborka__item-price">от 3 300 ₽</p>
+              <button class="podborka__item-delete js-delete">✕ Удалить</button>
+            </li>
+
+            <li class="podborka__item">
+              <div class="podborka__item-img-wrap">
+                <img
+                  src="./images/kartinka.png"
+                  alt="Дизайнерский светильник"
+                  class="podborka__item-img img"
+                />
+              </div>
+              <div class="podborka__item-info">
+                <h4 class="podborka__item-title">
+                  Дизайнерский светильник изготавливаемый по проекту
+                </h4>
+                <div class="podborka__item-specs">
+                  <span class="podborka__item-spec">Длинна до 3 метров.</span>
+                  <span class="podborka__item-spec"
+                    >Углы поворота между секторами по проекту.</span
+                  >
+                  <span class="podborka__item-spec"
+                    >Мощность рассчитывается индивидуально.</span
+                  >
+                </div>
+              </div>
+              <div class="podborka__item-qty">
+                <div class="podborka__counter">
+                  <button class="podborka__counter-btn js-minus">-</button>
+                  <p class="podborka__counter-val js-counter-val">1</p>
+                  <button class="podborka__counter-btn js-plus">+</button>
+                </div>
+                <span
+                  class="podborka__item-stock podborka__item-stock--available"
+                  >✓ В наличии</span
+                >
+              </div>
+              <p class="podborka__item-price">от 41 500 ₽</p>
+              <button class="podborka__item-delete js-delete">✕ Удалить</button>
+            </li>
+          </ul>
+
+          <div class="podborka__bottom">
+            <a href="./kartochka.html" class="podborka__back">← К покупкам</a>
+            <div class="podborka__bottom-right">
+              <p class="podborka__total js-total">Итого: от 44 800 ₽</p>
+              <div class="podborka__bottom-btns">
+                <button class="podborka__btn-secondary js-send-email">
+                  Отправить подборку на почту
+                </button>
+                <button class="podborka__btn-primary js-send-calc">
+                  Отправить заявку на расчет
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal-overlay js-modal-overlay" id="modal-email">
+      <div class="modal js-modal">
+        <button class="modal__close js-modal-close">✕</button>
+        <h3 class="modal__title">Введите адрес электронной почты</h3>
+        <div class="modal__field">
+          <input
+            type="email"
+            class="modal__input js-inp-email"
+            placeholder="Ваш e-mail*"
+          />
+        </div>
+        <label class="modal__check">
+          <input
+            type="checkbox"
+            class="modal__checkbox js-check-email"
+            checked
+          />
+          <span class="modal__check-text"
+            >Даю согласие на обработку персональных данных</span
+          >
+        </label>
+        <button class="modal__submit js-modal-submit-email">Отправить</button>
+      </div>
+    </div>
+
+    <div class="modal-overlay js-modal-overlay" id="modal-calc">
+      <div class="modal js-modal">
+        <button class="modal__close js-modal-close">✕</button>
+        <h3 class="modal__title">Введите следующие данные</h3>
+        <div class="modal__field">
+          <input
+            type="text"
+            class="modal__input js-inp-name"
+            placeholder="Ваше имя*"
+          />
+        </div>
+        <div class="modal__field">
+          <input
+            type="email"
+            class="modal__input js-inp-email-calc"
+            placeholder="Ваш e-mail*"
+          />
+        </div>
+        <div class="modal__field">
+          <input
+            type="tel"
+            class="modal__input js-inp-phone"
+            placeholder="Ваш телефон*"
+          />
+        </div>
+        <label class="modal__check">
+          <input
+            type="checkbox"
+            class="modal__checkbox js-check-calc"
+            checked
+          />
+          <span class="modal__check-text"
+            >Даю согласие на обработку персональных данных</span
+          >
+        </label>
+        <button class="modal__submit js-modal-submit-calc">Отправить</button>
+      </div>
+    </div>
+
+    <div class="modal-overlay js-modal-overlay" id="modal-thanks">
+      <div class="modal js-modal">
+        <button class="modal__close js-modal-close">✕</button>
+        <h3 class="modal__title modal__title--center">Спасибо!</h3>
+        <p class="modal__text">
+          Ваша заявка принята в ближайшее время наш менеджер с Вами свяжется.
+        </p>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <ul class="footer__inner_list">
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__title"
+                ><img src="./images/logo-footer 2.svg" alt=""
+              /></a>
+            </li>
+
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__text">
+                © Technolight 2015-2021
+              </a>
+            </li>
+          </ul>
+
+          <ul class="footer__inner_list">
+            <li class="footer__inner_list_item">
+              <a
+                href="#"
+                class="footer__link footer__title footer__link--yellow"
+              >
+                Каталог товаров
+              </a>
+            </li>
+
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__list_item"
+                >Трековые светильники</a
+              >
+            </li>
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__list_item"
+                >Встраиваемые светильники</a
+              >
+            </li>
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__list_item"
+                >Профильные светильники</a
+              >
+            </li>
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__list_item"
+                >Светильники Армстронг</a
+              >
+            </li>
+          </ul>
+
+          <ul class="footer__inner_list">
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__title"> Как заказать </a>
+            </li>
+
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__list_item">Оплата</a>
+            </li>
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__list_item">Доставка</a>
+            </li>
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__list_item"
+                >Реквизиты компании</a
+              >
+            </li>
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__list_item">FAQ</a>
+            </li>
+          </ul>
+
+          <ul class="footer__inner_list">
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__title"> Контакты </a>
+            </li>
+
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__contact">
+                <img
+                  src="./images/placeholder 1 (1).png"
+                  width="20"
+                  height="20"
+                  alt=""
+                />
+                <span>Место магазина</span>
+              </a>
+            </li>
+
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__contact">
+                <img src="./images/phnoe.png" width="15" height="15" alt="" />
+                <span>+7 (495) 233 55 57</span>
+              </a>
+            </li>
+
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__contact">
+                <img src="./images/gmail.png" width="20" height="20" alt="" />
+                <span>info@il-lights.ru</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./podborka/podborka.js"></script>
+  </body>
+</html>

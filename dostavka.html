@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LiLight/dastavka.com</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header_inner">
+        <div class="header_inner_left">
+          <a href="./company.html" class="header_inner_left_link">
+            <img
+              src="./images/Лого (1).svg"
+              alt="logo"
+              class="header_inner_left_link_img"
+              width="75"
+              height="58"
+            />
+          </a>
+        </div>
+
+        <div class="header_inner_center">
+          <ul class="header_inner_center_list">
+            <li class="header_inner_list_item">
+              <a href="./index.html" class="header_inner_center_link"
+                >О компании</a
+              >
+            </li>
+            <li class="header_inner_list_item">
+              <a href="./uslugi.html" class="header_inner_center_link"
+                >Услуги</a
+              >
+            </li>
+            <li class="header_inner_list_item">
+              <a href="#" class="header_inner_center_link">Проекты</a>
+            </li>
+            <li class="header_inner_list_item">
+              <a href="./dostavka.html" class="header_inner_center_link">
+                Доставка и оплата</a
+              >
+            </li>
+            <li class="header_inner_list_item">
+              <a href="#" class="header_inner_center_link">Контакты</a>
+            </li>
+              <li class="header_inner_list_item">
+              <a href="./katalog.html" class="header_inner_center_link">Katalog</a>
+            </li>
+             <li class="header_inner_list_item">
+              <a href="./kartochka.html" class="header_inner_center_link">Kartochka</a>
+            </li>
+            <li class="header_inner_list_item">
+              <a href="./pdoborka.html" class="header_inner_center_link1"
+                >Подборка</a
+              >
+              <button class="header__plus">+</button>
+            </li>
+          </ul>
+        </div>
+        <div class="header_inner_right">
+          <button class="header__burger js-burger" aria-label="Открыть меню">
+            ☰
+          </button>
+          <ul class="header_inner_right_list">
+            <li class="header_inner_right_list_item">
+              <a
+                href="mailto:info@i-lights.ru"
+                class="header_inner_right_gmail"
+              >
+                <img src="./images/gmail.png" alt="" /> info@i-lights.ru
+              </a>
+            </li>
+
+            <li class="header_inner_right_list_item">
+              <a href="tel:+74952335557" class="phone">
+                <img src="./images/phnoe.png" alt="" />+7 (495) 233 55 57
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section class="dostavka">
+      <div class="container">
+        <div class="dostavka__inner">
+          <div class="dostavka__top">
+            <span class="dostavka__breadcrumb">
+              <span class="dostavka__breadcrumb-item">Главная</span>
+              <span class="dostavka__breadcrumb-sep"> - </span>
+              <span
+                class="dostavka__breadcrumb-item dostavka__breadcrumb-item--active"
+                >Доставка и оплата</span
+              >
+            </span>
+            <h1 class="dostavka__title">Доставка и оплата</h1>
+          </div>
+
+          <ul class="dostavka__tabs">
+            <li
+              class="dostavka__tabs-item dostavka__tabs-item--active js-dst-tab"
+              data-dst="fizik"
+            >
+              <button class="dostavka__tabs-btn js-dst-btn">
+                Физическим лицам
+              </button>
+            </li>
+            <li class="dostavka__tabs-item js-dst-tab" data-dst="yuridik">
+              <button class="dostavka__tabs-btn js-dst-btn">
+                Юридическим лицам
+              </button>
+            </li>
+            <li class="dostavka__tabs-item js-dst-tab" data-dst="byudjet">
+              <button class="dostavka__tabs-btn js-dst-btn">
+                Бюджетным организациям
+              </button>
+            </li>
+          </ul>
+
+          <div class="dostavka__body">
+            <div
+              class="dostavka__panel js-dst-panel dostavka__panel--active"
+              data-dst="fizik"
+            >
+              <div class="dostavka__inner-wrap">
+                <div class="dostavka__left">
+                  <div class="dostavka__left-top">
+                    <h4 class="dostavka__section-title">По Москве</h4>
+                    <p class="dostavka__text">
+                      Доставка в течении 1 дня после подтверждения заказа.
+                      Оплата может производиться как наличными курьеру, так и
+                      путем перечисления денежных средств на счет организации с
+                      банковского счета физ. лица или через кассу любого банка.
+                    </p>
+                  </div>
+                  <div class="dostavka__left-bottom">
+                    <div class="dostavka__step">
+                      <div class="dostavka__step-num">1</div>
+                      <span class="dostavka__step-text"
+                        >Оформляете заявку в любой из форм на нашем сайте.
+                        Укажите телефон или адрес электронной почты для обратной
+                        связи.
+                        <strong
+                          >Либо заявку можно оформить по телефону 8 495 233 55
+                          57</strong
+                        ></span
+                      >
+                    </div>
+                    <div class="dostavka__step">
+                      <div class="dostavka__step-num">2</div>
+                      <span class="dostavka__step-text"
+                        >Менеджер оформляет заказ, вы согласовываете порядок
+                        доставки и оплаты с ним.</span
+                      >
+                    </div>
+                    <div class="dostavka__step">
+                      <div class="dostavka__step-num">3</div>
+                      <span class="dostavka__step-text"
+                        >Получаете изделие выбранным вами способом</span
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="dostavka__right">
+                  <h4 class="dostavka__section-title">В регионы</h4>
+                  <p class="dostavka__text">
+                    Доставка через транспортные компании Деловые Линии, ПЭК,
+                    СДЭК в течении 2-7 дней с момента отправки. Возможна как
+                    адресная доставка, так и получение в пунке самовывоза в
+                    вашем городе.
+                  </p>
+                  <form class="dostavka__form" id="js-dostavka-form-fizik">
+                    <div class="dostavka__field">
+                      <input
+                        type="text"
+                        class="dostavka__input js-inp-dst-name"
+                        placeholder="Ваше имя*"
+                      />
+                    </div>
+                    <div class="dostavka__field">
+                      <input
+                        type="tel"
+                        class="dostavka__input js-inp-dst-phone"
+                        placeholder="Ваш телефон*"
+                      />
+                    </div>
+                    <button
+                      type="button"
+                      class="dostavka__submit js-dst-submit"
+                    >
+                      Отправить
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+            <div class="dostavka__panel js-dst-panel" data-dst="yuridik">
+              <div class="dostavka__inner-wrap">
+                <div class="dostavka__left">
+                  <div class="dostavka__left-top">
+                    <h4 class="dostavka__section-title">По Москве</h4>
+                    <p class="dostavka__text">
+                      Доставка для юридических лиц осуществляется в течении 1-2
+                      рабочих дней после подтверждения заказа и оплаты счёта.
+                      Расчёт производится по безналичной форме оплаты на
+                      основании счёта и договора.
+                    </p>
+                  </div>
+                  <div class="dostavka__left-bottom">
+                    <div class="dostavka__step">
+                      <div class="dostavka__step-num">1</div>
+                      <span class="dostavka__step-text"
+                        >Оставьте заявку на сайте. Менеджер подготовит
+                        коммерческое предложение и счёт на оплату.</span
+                      >
+                    </div>
+                    <div class="dostavka__step">
+                      <div class="dostavka__step-num">2</div>
+                      <span class="dostavka__step-text"
+                        >После оплаты счёта начинается комплектация и отправка
+                        заказа.</span
+                      >
+                    </div>
+                    <div class="dostavka__step">
+                      <div class="dostavka__step-num">3</div>
+                      <span class="dostavka__step-text"
+                        >Получаете товар с полным пакетом закрывающих
+                        документов.</span
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="dostavka__right">
+                  <h4 class="dostavka__section-title">В регионы</h4>
+                  <p class="dostavka__text">
+                    Доставка по России транспортными компаниями по согласованию
+                    с менеджером. Возможна отправка через СДЭК, ПЭК, Деловые
+                    Линии.
+                  </p>
+                  <form class="dostavka__form" id="js-dostavka-form-yuridik">
+                    <div class="dostavka__field">
+                      <input
+                        type="text"
+                        class="dostavka__input js-inp-dst-name"
+                        placeholder="Ваше имя*"
+                      />
+                    </div>
+                    <div class="dostavka__field">
+                      <input
+                        type="tel"
+                        class="dostavka__input js-inp-dst-phone"
+                        placeholder="Ваш телефон*"
+                      />
+                    </div>
+                    <button
+                      type="button"
+                      class="dostavka__submit js-dst-submit"
+                    >
+                      Отправить
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+            <div class="dostavka__panel js-dst-panel" data-dst="byudjet">
+              <div class="dostavka__inner-wrap">
+                <div class="dostavka__left">
+                  <div class="dostavka__left-top">
+                    <h4 class="dostavka__section-title">По Москве</h4>
+                    <p class="dostavka__text">
+                      Работаем с бюджетными организациями по государственным
+                      контрактам и на основании тендерных процедур.
+                      Предоставляем все необходимые документы для отчётности.
+                    </p>
+                  </div>
+                  <div class="dostavka__left-bottom">
+                    <div class="dostavka__step">
+                      <div class="dostavka__step-num">1</div>
+                      <span class="dostavka__step-text"
+                        >Направьте запрос с техническим заданием. Подготовим
+                        спецификацию и коммерческое предложение.</span
+                      >
+                    </div>
+                    <div class="dostavka__step">
+                      <div class="dostavka__step-num">2</div>
+                      <span class="dostavka__step-text"
+                        >Заключаем договор поставки в соответствии с 44-ФЗ или
+                        223-ФЗ.</span
+                      >
+                    </div>
+                    <div class="dostavka__step">
+                      <div class="dostavka__step-num">3</div>
+                      <span class="dostavka__step-text"
+                        >Поставка в указанные сроки с полным комплектом
+                        документов.</span
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="dostavka__right">
+                  <h4 class="dostavka__section-title">В регионы</h4>
+                  <p class="dostavka__text">
+                    Осуществляем поставки для бюджетных организаций по всей
+                    России. Доставка транспортными компаниями или собственным
+                    транспортом по Москве и МО.
+                  </p>
+                  <form class="dostavka__form" id="js-dostavka-form-byudjet">
+                    <div class="dostavka__field">
+                      <input
+                        type="text"
+                        class="dostavka__input js-inp-dst-name"
+                        placeholder="Ваше имя*"
+                      />
+                    </div>
+                    <div class="dostavka__field">
+                      <input
+                        type="tel"
+                        class="dostavka__input js-inp-dst-phone"
+                        placeholder="Ваш телефон*"
+                      />
+                    </div>
+                    <button
+                      type="button"
+                      class="dostavka__submit js-dst-submit"
+                    >
+                      Отправить
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal-overlay js-modal-overlay" id="modal-dst-thanks">
+      <div class="modal js-modal">
+        <button class="modal__close js-modal-close">✕</button>
+        <h3 class="modal__title modal__title--center">Спасибо!</h3>
+        <p class="modal__text">
+          Ваша заявка принята в ближайшее время наш менеджер с Вами свяжется.
+        </p>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <ul class="footer__inner_list">
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__title"
+                ><img src="./images/logo-footer 2.svg" alt=""
+              /></a>
+            </li>
+
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__text">
+                © Technolight 2015-2021
+              </a>
+            </li>
+          </ul>
+
+          <ul class="footer__inner_list">
+            <li class="footer__inner_list_item">
+              <a
+                href="#"
+                class="footer__link footer__title footer__link--yellow"
+              >
+                Каталог товаров
+              </a>
+            </li>
+
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__list_item"
+                >Трековые светильники</a
+              >
+            </li>
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__list_item"
+                >Встраиваемые светильники</a
+              >
+            </li>
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__list_item"
+                >Профильные светильники</a
+              >
+            </li>
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__list_item"
+                >Светильники Армстронг</a
+              >
+            </li>
+          </ul>
+
+          <ul class="footer__inner_list">
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__title"> Как заказать </a>
+            </li>
+
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__list_item">Оплата</a>
+            </li>
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__list_item">Доставка</a>
+            </li>
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__list_item"
+                >Реквизиты компании</a
+              >
+            </li>
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__list_item">FAQ</a>
+            </li>
+          </ul>
+
+          <ul class="footer__inner_list">
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__title"> Контакты </a>
+            </li>
+
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__contact">
+                <img
+                  src="./images/placeholder 1 (1).png"
+                  width="20"
+                  height="20"
+                  alt=""
+                />
+                <span>Место магазина</span>
+              </a>
+            </li>
+
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__contact">
+                <img src="./images/phnoe.png" width="15" height="15" alt="" />
+                <span>+7 (495) 233 55 57</span>
+              </a>
+            </li>
+
+            <li class="footer__inner_list_item">
+              <a href="#" class="footer__link footer__contact">
+                <img src="./images/gmail.png" width="20" height="20" alt="" />
+                <span>info@il-lights.ru</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./dostavkaJs/dostavka.js"></script>
+  </body>
+</html>
