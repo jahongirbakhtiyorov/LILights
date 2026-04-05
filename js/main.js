@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
 });
+
 document.addEventListener('DOMContentLoaded', function () {
   const form = document.getElementById('js-contact-form');
   const inpName = document.querySelector('.js-inp-name');
@@ -62,6 +63,7 @@ document.addEventListener('DOMContentLoaded', function () {
     form.reset();
   });
 });
+
 document.addEventListener('DOMContentLoaded', function () {
 
   const addBtns = document.querySelectorAll('.js-novinki-add');
@@ -78,8 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const detailBtns = document.querySelectorAll('.js-novinki-btn');
 
   detailBtns.forEach(function (btn) {
-    btn.addEventListener('click', function (e) {
-      e.preventDefault();
+    btn.addEventListener('click', function () {
       const card = btn.closest('.js-novinki-item');
       const name = card.querySelector('.novinki__name').textContent.trim();
       console.log('[DETAIL] Clicked:', name);
@@ -89,8 +90,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const catalogBtn = document.querySelector('.js-novinki-catalog');
 
   if (catalogBtn) {
-    catalogBtn.addEventListener('click', function (e) {
-      e.preventDefault();
+    catalogBtn.addEventListener('click', function () {
       console.log('[CATALOG] Go to catalog clicked');
     });
   }

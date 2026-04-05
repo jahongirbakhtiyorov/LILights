@@ -3524,6 +3524,20 @@ header {
     flex-direction: column;
     gap: 16px;
 }
+.catalog__item-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 245px;
+  height: 55px;
+  background-color: #3d4f63;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0;
+  text-decoration: none;
+}
 
 .dostavka__form {
     display: flex;

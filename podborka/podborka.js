@@ -63,3 +63,23 @@ document.querySelector('.js-modal-submit-calc')?.addEventListener('click', () =>
   closeAllModals();
   openModal('modal-thanks');
 });
+const burger = document.querySelector('.js-burger');
+const mobileMenu = document.querySelector('.js-mobile-menu');
+const mobileClose = document.querySelector('.js-mobile-close');
+
+burger.addEventListener('click', function () {
+  mobileMenu.classList.add('is-open');
+  document.body.style.overflow = 'hidden';
+});
+
+mobileClose.addEventListener('click', function () {
+  mobileMenu.classList.remove('is-open');
+  document.body.style.overflow = '';
+});
+
+mobileMenu.addEventListener('click', function (e) {
+  if (e.target === mobileMenu) {
+    mobileMenu.classList.remove('is-open');
+    document.body.style.overflow = '';
+  }
+});
